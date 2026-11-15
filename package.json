@@ -1,0 +1,13 @@
+{
+  "name": "duplicate-merge-queue",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Fuzzy duplicate detection for HubSpot contacts and companies, with a human approving every merge.",
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "start": "node src/server.js",
+    "sweep": "node src/sweep.js",
+    "test": "node --test test/*.test.js",
+    "hash-password": "node src/hash-password.js"
+  }
+}
